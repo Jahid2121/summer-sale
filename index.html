@@ -47,7 +47,7 @@
               
                <div>
                 <input id="coupon-field" type="text" placeholder="Coupon code">
-                <button id="Apply" class="btn bg-[#E527B2]">Apply</button>
+                <button id="Apply" class="btn bg-[#E527B2] ">Apply</button>
                </div>
                <div id="selected-product"></div>
                <div class="cart-box">
@@ -56,14 +56,14 @@
                  <hr />
                  <h5>Total: <span id="allTotal">00</span></h5>
                </div>
-               <button class="btn bg-[#E527B2]">Make Purchase</button>
+               <button id="make-purchase" class="btn bg-[#E527B2] ">Make Purchase</button>
               
              </div>
               <div>
                 <!-- card -->
                 <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     <!-- product 1 -->
-                <div  id="product-$"  onclick="handleProductCard(this)" class="card bg-base-100 ">
+                <div  class="product"  onclick="handleProductCard(this)" class="card bg-base-100 ">
                     <figure class="px-10 pt-10">
                       <img src="images/prod1.png" alt="">
                     </figure>
@@ -76,13 +76,13 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                           </div>
-                      <h2 class="card-title text-lg font-semibold">K. Accessories</h2>
+                      <h2  class="card-title  text-lg font-semibold">K. Accessories</h2>
                       <p  class="text-lg font-normal"><span>25.00</span> TK</p>
                       
                     </div>
                   </div>
                     <!-- product 2 -->
-                <div id="product-$"  onclick="handleProductCard(this)" class="card bg-base-100 ">
+                <div class="product"  onclick="handleProductCard(this)" class="card bg-base-100 ">
                     <figure class="px-10 pt-10">
                       <img src="images/prod2.png" alt="">
                     </figure>
@@ -95,13 +95,13 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                           </div>
-                      <h2 class="card-title text-lg font-semibold">K. Accessories</h2>
+                      <h2  class="card-title  text-lg font-semibold">K. Accessories</h2>
                       <p  class="text-lg font-normal"><span id="price">25.00</span> TK</p>
                       
                     </div>
                   </div>
                     <!-- product 3 -->
-                <div id="product-$"  onclick="handleProductCard(this)" class="card bg-base-100 ">
+                <div class="product"  onclick="handleProductCard(this)" class="card bg-base-100 ">
                     <figure class="px-10 pt-10">
                       <img src="images/prod3.png" alt="">
                     </figure>
@@ -114,13 +114,13 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                           </div>
-                      <h2 class="card-title text-lg font-semibold">Home Cooker</h2>
+                      <h2  class="card-title  text-lg font-semibold">Home Cooker</h2>
                       <p  class="text-lg font-normal"><span id="price">25.00</span> TK</p>
                       
                     </div>
                   </div>
                     <!-- product 4 -->
-                <div id="product-$"  onclick="handleProductCard(this)" class="card bg-base-100 ">
+                <div class="product"  onclick="handleProductCard(this)" class="card bg-base-100 ">
                     <figure class="px-10 pt-10">
                       <img src="images/prod4.png" alt="">
                     </figure>
@@ -133,13 +133,13 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                           </div>
-                      <h2 class="card-title text-lg font-semibold">Sports Back Cap</h2>
+                      <h2  class="card-title  text-lg font-semibold">Sports Back Cap</h2>
                       <p  class="text-lg font-normal"><span id="price">25.00</span> TK</p>
                       
                     </div>
                   </div>
                     <!-- product 5 -->
-                <div id="product-$"  onclick="handleProductCard(this)" class="card bg-base-100 ">
+                <div class="product"  onclick="handleProductCard(this)" class="card bg-base-100 ">
                     <figure class="px-10 pt-10">
                       <img src="images/prod5.png" alt="">
                     </figure>
@@ -152,13 +152,13 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                           </div>
-                      <h2 class="card-title text-lg font-semibold">Full Jersey Set</h2>
+                      <h2  class="card-title  text-lg font-semibold">Full Jersey Set</h2>
                       <p  class="text-lg font-normal"><span id="price">25.00</span> TK</p>
                       
                     </div>
                   </div>
                     <!-- product 6 -->
-                <div id="product-$"  onclick="handleProductCard(this)" class="card bg-base-100 ">
+                <div class="product"  onclick="handleProductCard(this)" class="card bg-base-100 ">
                     <figure class="px-10 pt-10">
                       <img src="images/prod6.png" alt="">
                     </figure>
@@ -171,7 +171,7 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                           </div>
-                      <h2 class="card-title text-lg font-semibold">Sports cates</h2>
+                      <h2  class="card-title  text-lg font-semibold">Sports cates</h2>
                       <p  class="text-lg font-normal"><span id="price">25.00</span> TK</p>
                       
                     </div>
@@ -186,8 +186,10 @@
             </div>
           </div>
     </main>
+    <script src="js/removeReplica.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/btnDis.js"></script>
     <script src="js/coupon.js"></script>
-    
+    <script src="js/makePurchase.js"></script>
 </body>
 </html>
