@@ -18,8 +18,8 @@ document.getElementById('Apply').addEventListener('click', function(){
     if(totalPrice >= 200 && inputValue === 'SELL200' ){
       const discTaka = (totalPrice * disc) / 100
       const discountedPrice = totalPrice - discTaka
-      allTotalField.innerText = discountedPrice
-      discField.innerText = discTaka
+      allTotalField.innerText = discountedPrice.toFixed(2)
+      discField.innerText = discTaka.toFixed(2)
       
       
     }

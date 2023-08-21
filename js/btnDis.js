@@ -1,7 +1,6 @@
 const applyButton = document.getElementById('Apply');
 
 
-
 applyButton.disabled = true;
 
 
@@ -14,12 +13,13 @@ inputField.addEventListener('input', function() {
     const totalPriceStr = totalPriceField.innerText
     const totalPrice = parseFloat(totalPriceStr)
 
-
-
-  if (totalPrice >= 200 && inputValue === 'SELL200'  ) {
+  
+  if(totalPrice >= 200 && inputValue === 'SELL200'  ) {
 
     applyButton.disabled = false;   
-  } else {
+  }
+  
+  else {
 
     applyButton.disabled = true;
   }

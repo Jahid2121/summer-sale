@@ -46,7 +46,7 @@
                 <p >Have coupon?</p>
               
                <div>
-                <input class="w-1/2" id="coupon-field" type="text" placeholder="Coupon code">
+                <input class="w-1/2 p-2" id="coupon-field" type="text" placeholder="Coupon code">
                 <button id="Apply" class="btn hover:bg-[#E527B2]  bg-[#E527B2] text-white">Apply</button>
                </div>
                <div id="selected-product"></div>
@@ -76,6 +76,7 @@
                 <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     <!-- product 1 -->
                 <div  class="product"  onclick="handleProductCard(this)" class="card bg-base-100 ">
+                  <h1 class="text-4xl font-semibold">Kitchenware</h1>
                     <figure class="px-10 pt-10">
                       <img src="images/prod1.png" alt="">
                     </figure>
@@ -96,9 +97,9 @@
                     <!-- product 2 -->
                 <div class="product"  onclick="handleProductCard(this)" class="card bg-base-100 ">
                     <figure class="px-10 pt-10">
-                      <img src="images/prod2.png" alt="">
+                      <img class="mt-7" src="images/prod2.png" alt="">
                     </figure>
-                    <div class="card-body items-center text-center">
+                    <div class="card-body items-center text-center ">
                         <!-- rating -->
                         <div class="rating">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -114,8 +115,8 @@
                   </div>
                     <!-- product 3 -->
                 <div class="product"  onclick="handleProductCard(this)" class="card bg-base-100 ">
-                    <figure class="px-10 pt-10">
-                      <img src="images/prod3.png" alt="">
+                    <figure class="px-10 pt-12">
+                      <img class="mt-7" src="images/prod3.png" alt="">
                     </figure>
                     <div class="card-body items-center text-center">
                         <!-- rating -->
@@ -132,9 +133,11 @@
                     </div>
                   </div>
                     <!-- product 4 -->
+                    
                 <div class="product"  onclick="handleProductCard(this)" class="card bg-base-100 ">
+                  <h1 class="text-4xl font-semibold">Sportswear</h1>
                     <figure class="px-10 pt-10">
-                      <img src="images/prod4.png" alt="">
+                      <img class="mt-7" src="images/prod4.png" alt="">
                     </figure>
                     <div class="card-body items-center text-center">
                         <!-- rating -->
@@ -153,7 +156,7 @@
                     <!-- product 5 -->
                 <div class="product"  onclick="handleProductCard(this)" class="card bg-base-100 ">
                     <figure class="px-10 pt-10">
-                      <img src="images/prod5.png" alt="">
+                      <img class="mt-12" src="images/prod5.png" alt="">
                     </figure>
                     <div class="card-body items-center text-center">
                         <!-- rating -->
@@ -172,7 +175,7 @@
                     <!-- product 6 -->
                 <div class="product"  onclick="handleProductCard(this)" class="card bg-base-100 ">
                     <figure class="px-10 pt-10">
-                      <img src="images/prod6.png" alt="">
+                      <img class="mt-12" src="images/prod6.png" alt="">
                     </figure>
                     <div class="card-body items-center text-center">
                         <!-- rating -->
@@ -198,11 +201,11 @@
             </div>
           </div>
     </main>
+    <script src="js/makePurchase.js"></script>
+    <script src="js/buttonDIs.js"></script>
     <script src="js/index.js"></script>
-    <script src="js/removeReplica.js"></script>
     <script src="js/btnDis.js"></script>
     <script src="js/coupon.js"></script>
-    <script src="js/makePurchase.js"></script>
     <script src="js/goHome.js"></script>
 </body>
 </html>
