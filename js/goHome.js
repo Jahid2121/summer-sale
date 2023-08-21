@@ -11,6 +11,8 @@ const inputField = document.getElementById('coupon-field')
     allTotalField.innerText = ''
     const discField = document.getElementById('discount-field')
     discField.innerText = ''
+    const button = document.getElementById('Apply')
+    button.disabled = true
 })
 
 
